@@ -2,9 +2,10 @@
   "name": "mongo-deploy",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
+    "server": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +18,12 @@
   "bugs": {
     "url": "https://github.com/kanakaraju234/server-deploy/issues"
   },
-  "homepage": "https://github.com/kanakaraju234/server-deploy#readme"
+  "homepage": "https://github.com/kanakaraju234/server-deploy#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.0.2"
+  }
 }
